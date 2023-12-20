@@ -55,21 +55,21 @@ const products = [
   },
   {
     id: 1,
-    name: "Maccaron",
+    name: "Brown",
     href: "#",
     price: "$12",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-fnRKThb/1/X4/i-fnRKThb-X4.jpg",
+      "https://photos.smugmug.com/photos/i-7nNV4Kz/0/X5/i-7nNV4Kz-X5.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 2,
-    name: "Romova baba",
+    name: "White",
     href: "#",
     price: "$35",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-5wVZZnk/1/X4/i-5wVZZnk-X4.jpg",
+      "https://photos.smugmug.com/photos/i-zMJKrgx/0/X4/i-zMJKrgx-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
@@ -79,7 +79,7 @@ const products = [
     href: "#",
     price: "$89",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-QwHvQZm/1/X4/i-QwHvQZm-X4.jpg",
+      "https://photos.smugmug.com/photos/i-Fc9DhsD/0/X4/i-Fc9DhsD-X4.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },

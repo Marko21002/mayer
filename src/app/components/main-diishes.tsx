@@ -15,41 +15,37 @@
 const products = [
   {
     id: 1,
-    name: "Lapsha",
+    name: "Soup",
     href: "#",
     price: "$12",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-GTDcX63/1/X4/i-GTDcX63-X4.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    imageSrc: "./soup.jpeg",
+    imageAlt: "yogurt with fruits",
   },
   {
     id: 2,
-    name: "Venskiy",
+    name: "Hokkaido",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-npbDvfH/1/X4/i-npbDvfH-X4.jpg",
+    imageSrc: "./hokaiddo.jpeg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
-    name: "Tiramisy",
+    name: "Tartar",
     href: "#",
     price: "$89",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-4G2nPKG/1/X5/i-4G2nPKG-X5.jpg",
+      "https://photos.smugmug.com/photos/i-T2Kfxk5/1/X4/i-T2Kfxk5-X4.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 4,
-    name: "Hleb omlet",
+    name: "Ryba",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-qMCgnqQ/1/X4/i-qMCgnqQ-X4.jpg",
+    imageSrc: "./ryba.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -58,8 +54,7 @@ const products = [
     name: "Kamamber",
     href: "#",
     price: "$12",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-q6BWQXM/1/X4/i-q6BWQXM-X4.jpg",
+    imageSrc: "./salat.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -68,8 +63,7 @@ const products = [
     name: "Omlet Roll",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-SvXR58G/1/X4/i-SvXR58G-X4.jpg",
+    imageSrc: "./omlet.jpeg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
@@ -78,8 +72,7 @@ const products = [
     name: "Lapsha s krevetkoi",
     href: "#",
     price: "$89",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-D7XSFXW/0/X4/i-D7XSFXW-X4.jpg",
+    imageSrc: "./pasta.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -88,8 +81,7 @@ const products = [
     name: "Jija",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-fhwXLMK/0/X4/i-fhwXLMK-X4.jpg",
+    imageSrc: "./tost.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -100,10 +92,7 @@ export default function Menu2() {
   return (
     <div className="bg-stone-100">
       <div>
-        <h2
-          id="menu"
-          className="text-3xl font-semibold p-28 text-stone-900 animate-pulse"
-        >
+        <h2 id="menu" className="text-4xl font-semibold p-28 text-slate-900 ">
           Main Dishes
         </h2>
         <h2></h2>

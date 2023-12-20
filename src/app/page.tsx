@@ -5,6 +5,8 @@ import Menu from "./components/menu";
 import Partners from "./components/partners";
 import Content from "./components/content";
 import Menu2 from "./components/main-diishes";
+import Feature2 from "./components/feature2";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Partners></Partners>
       <Menu2></Menu2>
       <Menu></Menu>
+      <Feature2></Feature2>
+      <Footer></Footer>
     </div>
   );
 }

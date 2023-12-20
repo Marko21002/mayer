@@ -18,8 +18,7 @@ const products = [
     name: "Maccaron",
 
     price: "$12",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-fnRKThb/1/X4/i-fnRKThb-X4.jpg",
+    imageSrc: "./macroons.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -38,8 +37,7 @@ const products = [
     name: "Tiramisy",
 
     price: "$89",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-QwHvQZm/1/X4/i-QwHvQZm-X4.jpg",
+    imageSrc: "./tiramisu.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -48,8 +46,7 @@ const products = [
     name: "Choko tort",
 
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-Gbpqg26/1/X4/i-Gbpqg26-X4.jpg",
+    imageSrc: "./choko.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -84,11 +81,10 @@ const products = [
   },
   {
     id: 4,
-    name: "Choko tort",
+    name: "Ecler",
 
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-Gbpqg26/1/X4/i-Gbpqg26-X4.jpg",
+    imageSrc: "./fistachka.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -99,15 +95,15 @@ export default function Menu() {
   return (
     <div className="bg-stone-100">
       <div>
-        <h2 className="text-5xl font-semibold p-20 text-stone-900 animate-pulse">
+        <h2 className="text-4xl font-semibold p-20 text-stone-900 ">
           Our Desserts
         </h2>
         <h2></h2>
 
-        <div className="px-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="px-8 grid pb-14 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <a key={product.id} className="group">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
+              <div className="aspect-h-1  aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}

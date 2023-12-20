@@ -11,7 +11,7 @@ const posts = [
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://s3-media0.fl.yelpcdn.com/bphoto/WGHGhX2aE6RxZfU2L-yJ1A/348s.jpg",
+      "https://photos.smugmug.com/photos/i-NT43RBW/0/X5/i-NT43RBW-X5.jpg",
   },
 
   {
@@ -20,8 +20,7 @@ const posts = [
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    imageUrl:
-      "https://images.squarespace-cdn.com/content/v1/5ea7332f310fb630d08f7a6d/1593731230095-Z1R4ICOX39C58FOXXAE6/9A473513-D620-405D-8C02-FDAE42CA04B6.jpeg?format=1000w",
+    imageUrl: "./dallmayr.JPG",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     author: {
@@ -62,12 +61,12 @@ export default function Partners() {
             initial={{ opacity: 0, y: 50 }}
             animate={controls}
             transition={{ duration: 0.8 }}
-            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
-            Our Partners
+            Our Specials
           </motion.div>
-          <div className="p-16">
-            This is our speciall products in stock
+          <div className="p-16 text-xl">
+            Special products that you can buy in our caffe
             <br />
           </div>
         </div>

@@ -19,7 +19,7 @@ const products = [
     href: "#",
     price: "$12",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-j9TqtV3/1/X4/i-j9TqtV3-X4.jpg",
+      "https://photos.smugmug.com/photos/i-26xTqRw/1/X4/i-26xTqRw-X4.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -29,7 +29,17 @@ const products = [
     href: "#",
     price: "$35",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-GQzRk8v/1/X4/i-GQzRk8v-X4.jpg",
+      "https://photos.smugmug.com/photos/i-Jx4Gs7g/1/X5/i-Jx4Gs7g-X5.jpg",
+    imageAlt:
+      "Olive drab green insulated bottle with flared screw lid and flat top.",
+  },
+  {
+    id: 2,
+    name: "Soy Cherry",
+    href: "#",
+    price: "$35",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-zdvp5Tr/1/X4/i-zdvp5Tr-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
