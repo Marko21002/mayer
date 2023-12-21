@@ -51,7 +51,7 @@ const products = [
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
-    id: 1,
+    id: 5,
     name: "Zaher",
 
     price: "$12",
@@ -61,7 +61,7 @@ const products = [
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
-    id: 2,
+    id: 6,
     name: "Frukts v Chocolade",
 
     price: "$35",
@@ -71,7 +71,7 @@ const products = [
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
-    id: 3,
+    id: 7,
     name: "Red Velvet",
     price: "$89",
     imageSrc:
@@ -80,7 +80,7 @@ const products = [
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 4,
+    id: 8,
     name: "Ecler",
 
     price: "$35",
@@ -95,7 +95,7 @@ export default function Menu() {
   return (
     <div className="bg-stone-100">
       <div>
-        <h2 className="text-4xl font-semibold p-20 text-stone-900 ">
+        <h2 className="text-4xl font-semibold p-20 text-stone-900 font-boeck ">
           Our Desserts
         </h2>
         <h2></h2>

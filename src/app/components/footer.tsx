@@ -2,11 +2,11 @@ export default function Footer() {
   return (
     <div>
       <div>
-        <footer className="pt-16 px-8 bg-stone-100">
+        <footer className="pt-16 px-8 bg-stone-100 pb-14">
           <div className="mx-auto max-w-screen-xl border-t pt-8 sm:pt-16">
             <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0 mr-16">
-                <div className="text-4xl mb-16 font-black tracking-tighter">
+                <div className="text-5xl mb-16 font-black tracking-tighter font-boeck">
                   Mayer-Caffe
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase font-serif">
                     CONTACTS
                   </h2>
                   <ul className="text-gray-600">
@@ -124,10 +124,10 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8 " />
             <div className="sm:flex sm:items-center sm:justify-between">
-              <span className="text-sm text-gray-500 sm:text-center">
-                © 2023 SIGMANIT, s.r.o. Všetky práva vyhradené.
+              <span className="text-lg text-gray-500 sm:text-center font-boeck">
+                Mayer Cafe
               </span>
             </div>
           </div>

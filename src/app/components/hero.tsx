@@ -6,14 +6,14 @@ export default function Hero() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <img className="h-11" src="./vercel.svg" alt="Your Company" />
             <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
-            <h1 className="font-serif mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
+            <h1 className=" mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-8xl font-boeck">
               Cafe Mayer
             </h1>
 
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="#menu"
-                className="rounded-md bg-amber-800 px-8  py-2 text-lg hover:bg-amber-700 font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md font-boeck bg-amber-800 px-8  py-2 text-lg hover:bg-amber-700 font-semibold text-white shadow-lg  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Go to the menu
               </a>

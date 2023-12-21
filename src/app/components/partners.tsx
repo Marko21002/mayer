@@ -15,9 +15,9 @@ const posts = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "DALLMAYR COFFE",
-    href: "#",
+    href: "/dallmayr",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "./dallmayr.JPG",
@@ -29,7 +29,7 @@ const posts = [
     },
   },
   {
-    id: 1,
+    id: 3,
     title: "Mayer Chocolad",
     href: "/chokolade",
     description:
@@ -54,18 +54,18 @@ export default function Partners() {
     controls.start({ opacity: 1, y: 0 });
   }, [controls]);
   return (
-    <div className="bg-slate-100-50 py-24 sm:py-32">
+    <div className="bg-slate-200-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={controls}
             transition={{ duration: 0.8 }}
-            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            className="text-4xl font-bold font-boeck tracking-tight text-gray-900 sm:text-6xl"
           >
             Our Specials
           </motion.div>
-          <div className="p-16 text-xl">
+          <div className="p-16 text-xl font-serif">
             Special products that you can buy in our caffe
             <br />
           </div>
@@ -84,7 +84,7 @@ export default function Partners() {
               <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
               <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
-              <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
+              <h3 className="mt-3 text-lg font-semibold leading-6 text-white font-serif">
                 <a href={post.href}>
                   <span className="absolute inset-0" />
                   {post.title}
