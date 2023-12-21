@@ -6,8 +6,8 @@ import { motion, useAnimation } from "framer-motion";
 const posts = [
   {
     id: 1,
-    title: "HAFFNER WINE",
-    href: "/haffner",
+    title: "VÍNO HAFFNER",
+    href: "sk//haffner",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
@@ -16,8 +16,8 @@ const posts = [
 
   {
     id: 2,
-    title: "DALLMAYR COFFE",
-    href: "/dallmayr",
+    title: "KÁVA DALLMAYR",
+    href: "sk/dallmayr",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "./dallmayr.JPG",
@@ -30,8 +30,8 @@ const posts = [
   },
   {
     id: 3,
-    title: "Myer chocolate",
-    href: "/chokolade",
+    title: "Myer čokoláda",
+    href: "sk/chocolate",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
@@ -63,10 +63,10 @@ export default function Partners() {
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold font-boeck tracking-tight text-gray-900 sm:text-6xl"
           >
-            Our Specials
+            Naše špeciály
           </motion.div>
           <div className="p-16 text-xl font-serif">
-            Special products that you can buy in our caffe
+            Špeciálne produkty, ktoré si môžete zakúpiť v našej kaviarni
             <br />
           </div>
         </div>

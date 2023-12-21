@@ -94,9 +94,9 @@ export default function Menu2() {
       <div>
         <h2
           id="menu"
-          className="text-6xl font-semibold p-28 text-slate-900 font-boeck text-center "
+          className="text-4xl font-semibold p-28 text-slate-900 font-boeck "
         >
-          Main Dishes
+          Hlavné jedlá
         </h2>
         <h2></h2>
 

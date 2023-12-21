@@ -15,92 +15,95 @@
 const products = [
   {
     id: 1,
-    name: "Soup",
+    name: "with cinamon",
     href: "#",
     price: "$12",
-    imageSrc: "./soup.jpeg",
-    imageAlt: "yogurt with fruits",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-JWxxvb2/0/X4/i-JWxxvb2-X4.jpg",
+    imageAlt:
+      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 2,
-    name: "Hokkaido",
+    name: "Soy Cherry",
     href: "#",
     price: "$35",
-    imageSrc: "./hokaiddo.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-JCfF4kN/0/X4/i-JCfF4kN-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
-    name: "Tartar",
+    name: "Coffe milk",
     href: "#",
     price: "$89",
     imageSrc:
-      "https://photos.smugmug.com/photos/i-T2Kfxk5/1/X4/i-T2Kfxk5-X4.jpg",
+      "https://photos.smugmug.com/photos/i-qkBknVd/0/X4/i-qkBknVd-X4.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 4,
-    name: "Ryba",
+    name: "Meshok",
     href: "#",
     price: "$35",
-    imageSrc: "./ryba.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-tN7pC4X/0/X4/i-tN7pC4X-X4.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
-    id: 5,
-    name: "Kamamber",
+    id: 1,
+    name: "Brown",
     href: "#",
     price: "$12",
-    imageSrc: "./salat.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-7nNV4Kz/0/X5/i-7nNV4Kz-X5.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
-    id: 6,
-    name: "Omlet Roll",
+    id: 2,
+    name: "White",
     href: "#",
     price: "$35",
-    imageSrc: "./omlet.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-zMJKrgx/0/X4/i-zMJKrgx-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
-    id: 7,
-    name: "Lapsha s krevetkoi",
+    id: 3,
+    name: "Tiramisy",
     href: "#",
     price: "$89",
-    imageSrc: "./pasta.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-Fc9DhsD/0/X4/i-Fc9DhsD-X4.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 8,
-    name: "Jija",
+    id: 4,
+    name: "Dark Chokolande with orange",
     href: "#",
     price: "$35",
-    imageSrc: "./tost.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-zjRMd58/0/X4/i-zjRMd58-X4.jpg",
     imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+      "https://photos.smugmug.com/photos/i-zjRMd58/0/X4/i-zjRMd58-X4.jpg",
   },
   // More products...
 ];
 
-export default function Menu2() {
+export default function Menu() {
   return (
     <div className="bg-stone-100">
       <div>
-        <h2
-          id="menu"
-          className="text-6xl font-semibold p-28 text-slate-900 font-boeck text-center "
-        >
-          Main Dishes
-        </h2>
+        <h2 className="text-5xl font-semibold p-20 text-stone-900 animate-pulse"></h2>
         <h2></h2>
 
-        <div className="px-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 px-8">
           {products.map((product) => (
             <a key={product.id} className="group">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">

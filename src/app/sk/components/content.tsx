@@ -1,28 +1,27 @@
 export default function Content() {
   return (
-    <div className="mt-32 overflow-hidden sm:mt-40 ">
+    <div className="mt-32 overflow-hidden sm:mt-40">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
             <h2 className="text-4xl font-bold font-boeck tracking-tight text-gray-900 sm:text-4xl">
-              About Mayer Cafe in the Heart of Bratislava
+              O Mayer Cafe v srdci Bratislavy
             </h2>
             <p className="mt-6 text-xl leading-8 text-gray-600 font-serif">
-              Welcome to Mayer Cafe, your oasis of indulgence nestled in the
-              vibrant heart of Bratislava. At Caffe Mayer, we take pride in
-              offering a delightful experience that combines the rich flavors of
-              exceptional desserts, aromatic coffee, and the finest kosher
-              wines.
+              Vitajte v Mayer Cafe, vašej oáze pôžitkov, ktorá sa nachádza v
+              pulzujúce srdce Bratislavy. V Caffe Mayer sme na to hrdí ponúka
+              nádherný zážitok, ktorý spája bohaté chute výnimočné dezerty,
+              aromatická káva a najlepší kóšer vína.
             </p>
             <p className="mt-6 font-serif leading-7 text-gray-600 text-lg">
               <span className="font-semibold font-boeck text-lg pr-3">
-                Handcrafted Chocolate Magic:
+                Ručne vyrábaná čokoládová mágia:
               </span>
-              Immerse yourself in the world of chocolate alchemy with our
-              signature chocolate creations. At Caffe Mayer, we take pride in
-              producing our own exclusive chocolate mark, blending quality
-              ingredients and craftsmanship to bring you an unparalleled
-              chocolate indulgence.
+              Ponorte sa do sveta čokoládovej alchýmie s našou podpisové
+              čokoládové výtvory. V Caffe Mayer sme na to hrdí výroba našej
+              vlastnej exkluzívnej čokoládovej značky, kvalita miešania
+              ingrediencií a remeselného spracovania, ktoré vám prinesú nevídané
+              čokoládový pôžitok.
             </p>
           </div>
           <div className="flex flex-wrap items-start justify-center gap-6 sm:gap-8 lg:contents">

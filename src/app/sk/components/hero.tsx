@@ -3,7 +3,7 @@ export default function Hero() {
     <div className="relative bg-slate-100">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-12 xl:col-span-6">
-          <div className="p-12 flex">
+          <div className="pb-16 flex">
             <ul className="flex space-x-4">
               <li>
                 <a href="/sk">
@@ -19,7 +19,7 @@ export default function Hero() {
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/2412/2412363.png"
                     alt=""
-                    className="w-8"
+                    className="w-10"
                   />
                 </a>
               </li>
@@ -29,7 +29,7 @@ export default function Hero() {
             <img className="h-36" src="./blacklogo.png" alt="Your Company" />
 
             <h1 className=" mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-8xl font-boeck">
-              Cafe Mayer
+              Kaviareň Mayer
             </h1>
 
             <div className="mt-10 flex items-center gap-x-6">
@@ -37,7 +37,7 @@ export default function Hero() {
                 href="#menu"
                 className="rounded-md font-boeck bg-amber-800 px-8  py-2 text-lg hover:bg-amber-700 font-semibold text-white shadow-lg  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Menu
+                Ponuka
               </a>
             </div>
           </div>

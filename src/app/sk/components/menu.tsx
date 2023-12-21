@@ -15,95 +15,95 @@
 const products = [
   {
     id: 1,
-    name: "Soup",
-    href: "#",
+    name: "Maccaron",
+
     price: "$12",
-    imageSrc: "./soup.jpeg",
-    imageAlt: "yogurt with fruits",
+    imageSrc: "./macroons.jpeg",
+    imageAlt:
+      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 2,
-    name: "Hokkaido",
-    href: "#",
+    name: "Romova baba",
+
     price: "$35",
-    imageSrc: "./hokaiddo.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-5wVZZnk/1/X4/i-5wVZZnk-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
-    name: "Tartar",
-    href: "#",
+    name: "Tiramisy",
+
     price: "$89",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-T2Kfxk5/1/X4/i-T2Kfxk5-X4.jpg",
+    imageSrc: "./tiramisu.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 4,
-    name: "Ryba",
-    href: "#",
+    name: "Choko tort",
+
     price: "$35",
-    imageSrc: "./ryba.jpeg",
+    imageSrc: "./choko.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
     id: 5,
-    name: "Kamamber",
-    href: "#",
+    name: "Zaher",
+
     price: "$12",
-    imageSrc: "./salat.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-WzpKwQK/0/X4/i-WzpKwQK-X4.jpg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 6,
-    name: "Omlet Roll",
-    href: "#",
+    name: "Frukts v Chocolade",
+
     price: "$35",
-    imageSrc: "./omlet.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-WTfHTSx/0/X4/i-WTfHTSx-X4.jpg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 7,
-    name: "Lapsha s krevetkoi",
-    href: "#",
+    name: "Red Velvet",
     price: "$89",
-    imageSrc: "./pasta.jpeg",
+    imageSrc:
+      "https://photos.smugmug.com/photos/i-gTfgFTq/1/X4/i-gTfgFTq-X4.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 8,
-    name: "Jija",
-    href: "#",
+    name: "Ecler",
+
     price: "$35",
-    imageSrc: "./tost.jpeg",
+    imageSrc: "./fistachka.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   // More products...
 ];
 
-export default function Menu2() {
+export default function Menu() {
   return (
     <div className="bg-stone-100">
       <div>
-        <h2
-          id="menu"
-          className="text-6xl font-semibold p-28 text-slate-900 font-boeck text-center "
-        >
-          Main Dishes
+        <h2 className="text-4xl font-semibold p-20 text-stone-900 font-boeck ">
+          Naše dezerty
         </h2>
         <h2></h2>
 
-        <div className="px-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="px-8 grid pb-14 grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <a key={product.id} className="group">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
+              <div className="aspect-h-1  aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}

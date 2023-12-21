@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Hero from "./components/hero";
-import Feature from "./components/feature";
-import Menu from "./components/menu";
-import Partners from "./components/partners";
+import Menu2 from "./components/menu2";
 import Content from "./components/content";
-import Menu2 from "./components/main-diishes";
+import Feature from "./components/feature";
+import Hero from "./components/hero";
+import Partners from "./components/partners";
+import Menu from "./components/menu";
 import Feature2 from "./components/feature2";
 import Footer from "./components/footer";
 
