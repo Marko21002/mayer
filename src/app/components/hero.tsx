@@ -17,16 +17,16 @@ export default function Hero() {
               <li>
                 <a href="/">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/2412/2412363.png"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
                     alt=""
-                    className="w-8"
+                    className="w-12 pt-1"
                   />
                 </a>
               </li>
             </ul>
           </div>
           <div className="mx-auto max-w-2xl lg:mx-0 ">
-            <img className="h-36" src="./blacklogo.png" alt="Your Company" />
+            <img className="h-40" src="./logo2.png" alt="Your Company" />
 
             <h1 className=" mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-8xl font-boeck">
               Cafe Mayer
