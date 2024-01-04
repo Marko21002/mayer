@@ -7,6 +7,8 @@ import Content from "./components/content";
 import Menu2 from "./components/main-diishes";
 import Feature2 from "./components/feature2";
 import Footer from "./components/footer";
+import Choko from "./components/choko";
+import Wine from "./components/wine";
 
 export default function Home() {
   return (

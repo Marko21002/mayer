@@ -15,26 +15,26 @@
 const products = [
   {
     id: 1,
-    name: "Soup",
+    name: "Kurací výva",
     href: "#",
-    price: "$12",
+    price: "5.5€",
     imageSrc: "./soup.jpeg",
     imageAlt: "yogurt with fruits",
   },
   {
     id: 2,
-    name: "Hokkaido",
+    name: "Hokkaido sup",
     href: "#",
-    price: "$35",
+    price: "7€",
     imageSrc: "./hokaiddo.jpeg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
-    name: "Tartar",
+    name: "Avokádovo Lososový Tartar",
     href: "#",
-    price: "$89",
+    price: "14€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-T2Kfxk5/1/X4/i-T2Kfxk5-X4.jpg",
     imageAlt:
@@ -42,45 +42,45 @@ const products = [
   },
   {
     id: 4,
-    name: "Ryba",
+    name: "Lososovy Steak",
     href: "#",
-    price: "$35",
+    price: "18€",
     imageSrc: "./ryba.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
     id: 5,
-    name: "Kamamber",
+    name: "Šalát s krevetami a Mango",
     href: "#",
-    price: "$12",
+    price: "14€",
     imageSrc: "./salat.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 6,
-    name: "Omlet Roll",
+    name: "Omeleta z šunkou a syrom",
     href: "#",
-    price: "$35",
+    price: "13€",
     imageSrc: "./omlet.jpeg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 7,
-    name: "Lapsha s krevetkoi",
+    name: "Pasta s morskými plodmi",
     href: "#",
-    price: "$89",
+    price: "19€",
     imageSrc: "./pasta.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 8,
-    name: "Jija",
+    name: "Tuniakový tosť z avokado",
     href: "#",
-    price: "$35",
+    price: "12€",
     imageSrc: "./tost.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",

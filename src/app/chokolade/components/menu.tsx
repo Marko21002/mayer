@@ -54,7 +54,7 @@ const products = [
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
-    id: 1,
+    id: 5,
     name: "Brown",
     href: "#",
     price: "$12",
@@ -64,7 +64,7 @@ const products = [
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
-    id: 2,
+    id: 6,
     name: "White",
     href: "#",
     price: "$35",
@@ -74,7 +74,7 @@ const products = [
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
-    id: 3,
+    id: 7,
     name: "Tiramisy",
     href: "#",
     price: "$89",
@@ -84,7 +84,7 @@ const products = [
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 4,
+    id: 8,
     name: "Dark Chokolande with orange",
     href: "#",
     price: "$35",
@@ -106,11 +106,11 @@ export default function Menu() {
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 px-8">
           {products.map((product) => (
             <a key={product.id} className="group">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7 transition-transform transform  hover:scale-110">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center group-hover:opacity-75"
+                  className="h-full w-full object-cover object-center "
                 />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>

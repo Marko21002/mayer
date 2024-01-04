@@ -71,7 +71,7 @@ export default function Footer() {
                         +421 911 522 757
                       </a>
                     </li>
-                    <li className="mb-4">
+                    {/* <li className="mb-4">
                       <a
                         href="mailto:info@best-walnuts.com"
                         className="flex items-center gap-2 hover:underline"
@@ -91,7 +91,7 @@ export default function Footer() {
                         </svg>
                         info@best-walnuts.com
                       </a>
-                    </li>
+                    </li> */}
                     <li className="mb-4">
                       <a
                         href="https://maps.app.goo.gl/miF6VPD3Piug4Gt87"
@@ -117,7 +117,7 @@ export default function Footer() {
                             d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                           ></path>
                         </svg>
-                        Bazová 8, 821 08 Bratislava
+                        Hlavné námestie 355/4, 811 01 Staré Mesto
                       </a>
                     </li>
                   </ul>

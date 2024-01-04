@@ -17,16 +17,16 @@ const products = [
     id: 1,
     name: "Maccaron",
 
-    price: "$12",
+    price: "3€",
     imageSrc: "./macroons.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 2,
-    name: "Romova baba",
+    name: "Chestnut nest",
 
-    price: "$35",
+    price: "5.90€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-5wVZZnk/1/X4/i-5wVZZnk-X4.jpg",
     imageAlt:
@@ -34,27 +34,27 @@ const products = [
   },
   {
     id: 3,
-    name: "Tiramisy",
+    name: "Tiramisu",
 
-    price: "$89",
+    price: "5.90€",
     imageSrc: "./tiramisu.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 4,
-    name: "Choko tort",
+    name: "Chocolate cake",
 
-    price: "$35",
+    price: "5.90€",
     imageSrc: "./choko.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
     id: 5,
-    name: "Zaher",
+    name: "Brownie cheesecake",
 
-    price: "$12",
+    price: "5.10€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-WzpKwQK/0/X4/i-WzpKwQK-X4.jpg",
     imageAlt:
@@ -62,9 +62,9 @@ const products = [
   },
   {
     id: 6,
-    name: "Frukts v Chocolade",
+    name: "Chocolate",
 
-    price: "$35",
+    price: "4.80€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-WTfHTSx/0/X4/i-WTfHTSx-X4.jpg",
     imageAlt:
@@ -72,8 +72,8 @@ const products = [
   },
   {
     id: 7,
-    name: "Red Velvet",
-    price: "$89",
+    name: "Red velvet",
+    price: "5.90€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-gTfgFTq/1/X4/i-gTfgFTq-X4.jpg",
     imageAlt:
@@ -81,9 +81,9 @@ const products = [
   },
   {
     id: 8,
-    name: "Ecler",
+    name: "Pistachio cake with raspberry",
 
-    price: "$35",
+    price: "5.90€",
     imageSrc: "./fistachka.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
