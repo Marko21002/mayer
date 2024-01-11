@@ -15,7 +15,7 @@
 const products = [
   {
     id: 1,
-    name: "Ethiopoan crown",
+    name: "Antigua Tarrazu",
     href: "#",
     price: "$12",
     imageSrc: "../dallmayer.webp",
@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Antigua Tarrazu",
+    name: "Ethiopoan crown",
     href: "#",
     price: "$35",
     imageSrc: "../dallmayer1.webp",
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Meshok",
+    name: "San Sebastian",
     href: "#",
     price: "$35",
     imageSrc: "../dallmayer4.webp",
@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 1,
-    name: "Brown",
+    name: "Prodomo",
     href: "#",
     price: "$12",
     imageSrc: "../dallmayer5.webp",

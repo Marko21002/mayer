@@ -57,15 +57,7 @@ export default function Partners() {
     <div className="bg-slate-200-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={controls}
-            transition={{ duration: 0.8 }}
-            className="text-4xl font-bold font-boeck tracking-tight text-gray-900 sm:text-6xl"
-          >
-            Our Specials
-          </motion.div>
-          <div className="p-16 text-xl font-serif">
+          <div className="p-16 text-xl font-boeck text-3xl ">
             Special products that you can buy in our caffe
             <br />
           </div>

@@ -5,23 +5,23 @@ export default function Content() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
             <h2 className="text-4xl font-bold font-boeck tracking-tight text-gray-900 sm:text-4xl">
-              O Mayer Cafe v srdci Bratislavy
+              Vitajte v kaviarni Mayer
             </h2>
             <p className="mt-6 text-xl leading-8 text-gray-600 font-serif">
-              Vitajte v Mayer Cafe, vašej oáze pôžitkov, ktorá sa nachádza v
-              pulzujúce srdce Bratislavy. V Caffe Mayer sme na to hrdí ponúka
-              nádherný zážitok, ktorý spája bohaté chute výnimočné dezerty,
-              aromatická káva a najlepší kóšer vína.
+              vašom útočisku potešenia ukrytom v živom srdci Bratislavy. V
+              kaviarni Mayer sa hrdíme na ponuku lahodných zážitkov, ktoré
+              spájajú bohaté chute výnimočných dezertov, aromatické kávy a
+              najlepšie košer vína
             </p>
             <p className="mt-6 font-serif leading-7 text-gray-600 text-lg">
               <span className="font-semibold font-boeck text-lg pr-3">
-                Ručne vyrábaná čokoládová mágia:
+                Ručne vytvorená čarovná čokoláda:
               </span>
-              Ponorte sa do sveta čokoládovej alchýmie s našou podpisové
-              čokoládové výtvory. V Caffe Mayer sme na to hrdí výroba našej
-              vlastnej exkluzívnej čokoládovej značky, kvalita miešania
-              ingrediencií a remeselného spracovania, ktoré vám prinesú nevídané
-              čokoládový pôžitok.
+              Ponorte sa do sveta čokoládovej alchýmie s našimi jedinečnými
+              čokoládovými kreáciami. V kaviarni Mayer máme pýchu na výrobu
+              vlastnej exkluzívnej čokoládovej značky, miešajúc kvalitné
+              ingrediencie a remeselnú prácu, aby sme vám priniesli
+              nezameniteľné čokoládové potešenie.
             </p>
           </div>
           <div className="flex flex-wrap items-start justify-center gap-6 sm:gap-8 lg:contents">

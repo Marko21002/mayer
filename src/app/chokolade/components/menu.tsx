@@ -15,83 +15,67 @@
 const products = [
   {
     id: 1,
-    name: "with cinamon",
+    name: "Almonds in milk chokolade with cinamon",
     href: "#",
     price: "$12",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-JWxxvb2/0/X4/i-JWxxvb2-X4.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    imageSrc: "./almonds.jpeg",
+    imageAlt: "almonds&milk choco",
   },
   {
     id: 2,
-    name: "Soy Cherry",
+    name: "Soy Cherry&Dark chocolate",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-JCfF4kN/0/X4/i-JCfF4kN-X4.jpg",
-    imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
+    imageSrc: "cherry.jpeg",
+    imageAlt: "sour cherry",
   },
   {
     id: 3,
-    name: "Coffe milk",
+    name: "Coffe beans & milk chocolate",
     href: "#",
     price: "$89",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-qkBknVd/0/X4/i-qkBknVd-X4.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
+    imageSrc: "./coffe.jpeg",
+    imageAlt: "Coffe beans & milk chocolate",
   },
   {
     id: 4,
-    name: "Meshok",
+    name: "Princess Sisi",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-tN7pC4X/0/X4/i-tN7pC4X-X4.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    imageSrc: "./sisi.jpeg",
+    imageAlt: "Princess Sisi.",
   },
   {
     id: 5,
-    name: "Brown",
+    name: "Almonds in dark chocolate & Cinamon",
     href: "#",
     price: "$12",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-7nNV4Kz/0/X5/i-7nNV4Kz-X5.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    imageSrc: "./brown.jpeg",
+    imageAlt: "Almonds in dark chocolate & Cinamon",
   },
   {
     id: 6,
-    name: "White",
+    name: "Raisins in milk chocolate & Cinamon",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-zMJKrgx/0/X4/i-zMJKrgx-X4.jpg",
-    imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
+    imageSrc: "./raisins.jpeg",
+    imageAlt: "Raisins in milk chocolate & Cinamon",
   },
   {
     id: 7,
-    name: "Tiramisy",
+    name: "Almonds in dark chocolate with chili&salt",
     href: "#",
     price: "$89",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-Fc9DhsD/0/X4/i-Fc9DhsD-X4.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
+    imageSrc: "./black.jpeg",
+    imageAlt: "dark",
   },
   {
     id: 8,
-    name: "Dark Chokolande with orange",
+    name: "Orange in dark chocolate & cocoa",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://photos.smugmug.com/photos/i-zjRMd58/0/X4/i-zjRMd58-X4.jpg",
-    imageAlt:
-      "https://photos.smugmug.com/photos/i-zjRMd58/0/X4/i-zjRMd58-X4.jpg",
+    imageSrc: "./orange.jpeg",
+    imageAlt: "orange",
   },
   // More products...
 ];

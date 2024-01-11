@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="bg-stone-950 text-white px-6 py-24 sm:py-32 lg:px-8">
       <div className="flex justify-center">
-        <img src="./logo.png" alt="" />
+        <img src="../logo.png" alt="" />
       </div>
       <div className="mx-auto max-w-2xl text-center">
         <p className="text-base font-semibold leading-7 text-white"></p>
