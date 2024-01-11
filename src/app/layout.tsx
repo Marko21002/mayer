@@ -27,6 +27,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="title" content="Cafe Mayer - Desserts Delight" />
+        <meta
+          name="description"
+          content="Indulge in our delicious desserts at Cafe Mayer. A sweet haven for dessert lovers."
+        />
+        <meta
+          name="keywords"
+          content="cafe mayer, desserts, sweet treats, bakery, coffee shop"
+        />
+      </head>
       <body className={boeck.variable}>{children}</body>
     </html>
   );
