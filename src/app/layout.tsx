@@ -18,7 +18,7 @@ const boeck = localfont({
 export const metadata: Metadata = {
   title: "Cafe Mayer",
   description:
-    "ndulge in our delicious desserts at Cafe Mayer. A sweet haven for dessert lovers.",
+    "Indulge in our delicious desserts at Cafe Mayer. A sweet haven for dessert lovers.",
 };
 
 export default function RootLayout({
@@ -28,12 +28,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="keywords"
-          content="cafe mayer, desserts, sweet treats, bakery, coffee shop"
-        />
-      </head>
       <body className={boeck.variable}>{children}</body>
     </html>
   );
