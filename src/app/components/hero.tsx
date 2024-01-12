@@ -9,9 +9,11 @@ const Hero = () => {
         backgroundImage: "url('./dark30.jpg')",
         backgroundPosition: "center", // Center the background image
         backgroundSize: "cover", // Cover the entire container
-        backgroundRepeat: "no-repeat", // No repeating
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "scroll",
+        // No repeating
       }}
-      className="min-h-screen bg-black flex flex-col bg-no-repeat bg-bottom-left bg-fixed pt-3 pl-3 pr-3"
+      className="min-h-screen bg-black flex flex-col  pt-3 pl-3 pr-3"
     >
       <ul className="flex space-x-4 justify-start">
         <li>
