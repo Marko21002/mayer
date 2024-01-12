@@ -6,9 +6,12 @@ const Hero = () => {
     <div
       style={{
         // Add background image style here
-        backgroundImage: "url('./dark30.jpg')", // Corrected the image path
+        backgroundImage: "url('./dark30.jpg')",
+        backgroundPosition: "center", // Center the background image
+        backgroundSize: "cover", // Cover the entire container
+        backgroundRepeat: "no-repeat", // No repeating
       }}
-      className="min-h-screen bg-black flex flex-col  bg-no-repeat  bg-bottom-left bg-fixed bg-cover pt-3 pl-3 pr-3"
+      className="min-h-screen bg-black flex flex-col bg-no-repeat bg-bottom-left bg-fixed pt-3 pl-3 pr-3"
     >
       <ul className="flex space-x-4 justify-start">
         <li>
@@ -25,7 +28,7 @@ const Hero = () => {
             <img
               src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
               alt=""
-              className="w-12 "
+              className="w-12"
             />
           </a>
         </li>
@@ -34,7 +37,7 @@ const Hero = () => {
         <div>
           <img src="/logo.png" width={300} height={150} alt="logo" />
         </div>
-        <p className=" pt-8 text-stone-100 font-boeck text-5xl font-bold pb-4">
+        <p className="pt-8 text-stone-100 font-boeck text-5xl font-bold pb-4">
           Cafe Mayer
         </p>
       </div>
