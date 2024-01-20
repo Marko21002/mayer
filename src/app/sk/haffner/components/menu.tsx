@@ -15,9 +15,9 @@
 const products = [
   {
     id: 1,
-    name: "with cinamon",
+    name: "T.B.A. Essencia",
     href: "#",
-    price: "$12",
+    price: "25,00 €",
     imageSrc:
       "https://photos.smugmug.com/photos/i-26xTqRw/1/X4/i-26xTqRw-X4.jpg",
     imageAlt:
@@ -25,9 +25,9 @@ const products = [
   },
   {
     id: 2,
-    name: "Soy Cherry",
+    name: "Koshmir",
     href: "#",
-    price: "$35",
+    price: "28,50€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-Jx4Gs7g/1/X5/i-Jx4Gs7g-X5.jpg",
     imageAlt:
@@ -35,9 +35,9 @@ const products = [
   },
   {
     id: 2,
-    name: "Soy Cherry",
+    name: "Anakin",
     href: "#",
-    price: "$35",
+    price: "70,00€",
     imageSrc:
       "https://photos.smugmug.com/photos/i-zdvp5Tr/1/X4/i-zdvp5Tr-X4.jpg",
     imageAlt:

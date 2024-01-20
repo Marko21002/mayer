@@ -17,7 +17,7 @@ const products = [
     id: 1,
     name: "Antigua Tarrazu",
     href: "#",
-    price: "$12",
+    price: "22,35€",
     imageSrc: "./dallmayer.webp",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
@@ -26,7 +26,7 @@ const products = [
     id: 2,
     name: "Ethiopoan crown",
     href: "#",
-    price: "$35",
+    price: "22,35€",
     imageSrc: "./dallmayer1.webp",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
@@ -35,7 +35,7 @@ const products = [
     id: 3,
     name: "Dyawa Antara",
     href: "#",
-    price: "$89",
+    price: "22,35€",
     imageSrc: "./dallmayer3.webp",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
@@ -44,7 +44,7 @@ const products = [
     id: 4,
     name: "San Sebastian",
     href: "#",
-    price: "$35",
+    price: "22,35€",
     imageSrc: "./dallmayer4.webp",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -53,7 +53,7 @@ const products = [
     id: 5,
     name: "Prodomo",
     href: "#",
-    price: "$12",
+    price: "22,35€",
     imageSrc: "./dallmayer5.webp",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
