@@ -15,7 +15,7 @@
 const products = [
   {
     id: 1,
-    name: "Kurací výva",
+    name: " Kurací vývar",
     href: "#",
     price: "5.5€",
     imageSrc: "./soup.jpeg",

@@ -30,7 +30,7 @@ const posts = [
   },
   {
     id: 3,
-    title: "Myer chocolate",
+    title: "Mayer chocolate",
     href: "/chokolade",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
