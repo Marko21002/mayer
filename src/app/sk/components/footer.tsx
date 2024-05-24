@@ -17,25 +17,25 @@ export default function Footer() {
                   </h2>
                   <ul className="text-gray-600">
                     <li className="mb-4">
-                      <div>pondelok: 08:00–20:00</div>
+                      <div>pondelok: 08:00–21:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>utorok: 08:00–20:00</div>
+                      <div>utorok: 08:00–21:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>streda: 08:00–20:00</div>
+                      <div>streda: 08:00–21:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>štvrtok: 08:00–20:00</div>
+                      <div>štvrtok: 08:00–21:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>piatok: 08:00–20:00</div>
+                      <div>piatok: 08:00–22:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>sobota: 09:00–20:00</div>
+                      <div>sobota: 09:00–23:00</div>
                     </li>
                     <li className="mb-4">
-                      <div>nedeľa: 09:00–20:00</div>
+                      <div>nedeľa: 09:30–22:00</div>
                     </li>
                     <li className="mb-4">
                       <div className="text-xl font-semibold">
@@ -51,7 +51,7 @@ export default function Footer() {
                   <ul className="text-gray-600">
                     <li className="mb-4">
                       <a
-                        href="tel:+421911522757"
+                        href="tel:+421950710527"
                         className="flex items-center gap-2 hover:underline"
                       >
                         <svg
@@ -68,7 +68,7 @@ export default function Footer() {
                             d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
                           ></path>
                         </svg>
-                        +421 911 522 757
+                        +421 950 710 527
                       </a>
                     </li>
                     {/* <li className="mb-4">
